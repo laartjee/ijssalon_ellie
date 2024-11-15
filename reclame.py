@@ -1,9 +1,5 @@
-def mijn_functie_2(a, b):
-    eerste_getal = a + b
-    tweede_getal = a - b
-    derde_getal = a * b
-    vierde_getal = a / b
-    return [eerste_getal, tweede_getal, derde_getal, vierde_getal]
+from algemene_functies import mijn_functie_2
+
 def aanbieding_1(smaak, prijs, korting):
     prijs_na_korting = prijs * (1-korting)
     uitvoer = f"Vandaag in de aanbieding: Emmertje ijs(1 liter) in de smaak {smaak},van {prijs} euro voor {prijs_na_korting:.2f} euro."
